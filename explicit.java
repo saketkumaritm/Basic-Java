@@ -1,8 +1,7 @@
-class A {
+class explicit {
     public static void main(String[] args) {
-        int a = 10;
-        double b = a;
+        double a = 10.5;
+        int b = (int) a;
         System.out.print(b);
-
     }
 }

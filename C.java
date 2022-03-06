@@ -1,14 +1,11 @@
 import java.util.Scanner;
 
-import javax.sound.midi.Soundbank;
-import java.util.Scanner;
-
-class B {
+class c {
     public static void main(String[] args) {
         int a;
-        System.out.println("Enter Data");
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Value");
         a = sc.nextInt();
-        System.out.println("Get Data " + a);
+        System.out.println(a);
     }
 }
